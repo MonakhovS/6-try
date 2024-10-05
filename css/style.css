@@ -46,6 +46,7 @@ header .enter-or-register-box {
 header nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius);
     padding: 0.75rem 0.25rem;
@@ -70,41 +71,47 @@ header nav ul li a {
     text-transform: uppercase;
 }
 
-header nav form {
-    align-items: end;
-}
-
 .search {
     padding-left: 20px;
-    width: 170px;
-    height: 20px;
+    padding-bottom: 4px;
+    width: 160px;
+    height: 18px;
+    border-radius: 2px;
+    background-color: #f0f0f0;
 }
 
 form {
-    display: flex;
-    flex-direction: row;
-    border: 1px solid grey;
+    border: 1px solid rgb(200, 200, 200);
     padding: 1px;
 }
 
 input {
-    flex-grow: 2;
     border: none;
     background-color: #f0f0f0;
-    width: 150px;
+    width: 140px;
+    outline: none;
+}
+
+input[type="text"]
+{
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
 }
 
 input:focus {
     outline: none;
 }
 
-form:focus-within {
-    outline: 1px rgb(255, 0, 0);
+/*
+form:focus {
+    border:#35a5e5 1px solid;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
 }
+*/
 
 button {
     border: none;
-margin-left: -20px;
+    margin-left: -20px;
 }
 
 .middle {
