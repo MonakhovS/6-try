@@ -170,3 +170,99 @@ aside section .footer a {
 aside section .footer a:after {
     content: " →";
 }
+
+.submissions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-top: 15px;
+    /* border-top-left-radius: 50%; */
+}
+
+.submissions-title {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: larger;
+    background-color: rgb(216, 216, 216);
+    text-align: left;
+    width: 80px;
+}
+
+/* .table-head{} */
+
+
+.submissions-head {
+    background-color: white;
+    line-height: 20px;
+}
+.submissions-table {
+    /* width: 100%; */
+    height: 125px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table-id {
+    width: 75px;
+}
+
+.table-created {
+    width: 400px;
+}
+
+.table-user {
+    width: 100px;
+}
+
+.table-status {
+    width: 150px;
+}
+
+.table-test {
+    width: 80px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    /* padding: 8px; */
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.table-pay-attention {
+    margin-left: 20px;
+    width: 300px;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+.pay-attention-title {
+    text-align: left;
+    padding-left: 20px;
+    /* text-decoration-color: #3b5998; */
+    font-size: 14px;
+    /* text-decoration: solid; */
+    background-color: white;
+}
+
+.pay-attention-text {
+    font-size: 14px;
+    text-align: left;
+    padding: 15px;
+    background-color: white;
+}
+
+.pay-attention-footer {
+    text-align: right;
+    padding-right: 15px;
+    font-size: 12px;
+    background-color: white;
+}
