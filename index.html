@@ -50,37 +50,53 @@
                 <tbody>
                     <td colspan="3">
                         <form class="login-form">
-                            <label for="email">Email</label>
-                            <input class="login-input" type="email" id="email" />
-                            <label for="pass">Password</label>
-                            <input class="login-input" type="password" />
+                            <div>
+                                <label for="email">Email</label>
+                                <input
+                                    class="login-input"
+                                    type="email"
+                                    id="email" />
+                            </div>
+                            <div>
+                                <label for="pass">Password</label>
+                                <input
+                                    class="login-input"
+                                    type="password"
+                                    required />
+                                <p class="login-input-error">
+                                    This field is required
+                                </p>
+                            </div>
                             <input
                                 type="checkbox"
                                 value="RememberMe"
-                                id="rememberMe"
-                            />
+                                id="rememberMe" />
                             <label for="rememberMe">Remember me</label>
-                            <input class="login-button"
+                            <!-- <input class="login-button"
                                 type="submit"
                                 value="Login"
-                            />                    
-                            <p class="login-table-forgot"><a href="#">Forgot your password?</a></p>
+                            />  -->
+                            <button>Login</button>
+                            <p class="login-table-forgot">
+                                <a href="#">Forgot your password?</a>
+                            </p>
                         </form>
                     </td>
-
                 </tbody>
                 <tfoot>
-                    <td class="login-table-footer ">
-                    <a href="#">Use OpenID</a>
-                    <a href="#">Use Facebook</a>
-                    <a href="#">Use Gmail</a>
+                    <td class="login-table-footer">
+                        <a href="#">Use OpenID</a>
+                        <a href="#">Use Facebook</a>
+                        <a href="#">Use Gmail</a>
                     </td>
                 </tfoot>
             </table>
             <table class="table-pay-attention">
                 <thead>
                     <tr>
-                        <td class="pay-attention-title"><b>Pay attention</b></td>
+                        <td class="pay-attention-title">
+                            <b>Pay attention</b>
+                        </td>
                     </tr>
                 </thead>
                 <tbody class="table-pay-attention-text">
@@ -94,7 +110,9 @@
                 </tbody>
                 <tfoot class="table-pay-attention-footer">
                     <tr>
-                        <td class="pay-attention-footer"><a href="#">View all</a></td>
+                        <td class="pay-attention-footer">
+                            <a href="#">View all</a>
+                        </td>
                     </tr>
                 </tfoot>
             </table>

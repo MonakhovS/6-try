@@ -109,7 +109,7 @@ form:focus {
 }
 */
 
-button {
+.search > button {
     border: none;
     margin-left: -20px;
 }
@@ -226,8 +226,8 @@ tr:nth-child(odd) {
     padding: 1px;
 }
 .login-button {
-    background-color: #969696;
-    border: 1px solid #333;
+    /* background-color: #969696;
+    border: 1px solid #333; */
     width: 80px;
     margin-top: 15px;
 }
@@ -274,4 +274,15 @@ tr:nth-child(odd) {
     padding-right: 15px;
     font-size: 12px;
     background-color: white;
+}
+
+.login-input-error {
+    opacity: 0;
+    color: red;
+    font-size: 10px;
+
+}
+
+.login-input:invalid ~ .login-input-error {
+    opacity: 100;
 }
