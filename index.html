@@ -42,7 +42,63 @@
                 </form>
             </nav>
         </header>
-        <!-- Здесь основные блоки -->
+        <div class="login-div">
+            <table class="login-table">
+                <thead>
+                    <td class="login-table-title">Login into Codeforces</td>
+                </thead>
+                <tbody>
+                    <td colspan="3">
+                        <form class="login-form">
+                            <label for="email">Email</label>
+                            <input class="login-input" type="email" id="email" />
+                            <label for="pass">Password</label>
+                            <input class="login-input" type="password" />
+                            <input
+                                type="checkbox"
+                                value="RememberMe"
+                                id="rememberMe"
+                            />
+                            <label for="rememberMe">Remember me</label>
+                            <input class="login-button"
+                                type="submit"
+                                value="Login"
+                            />                    
+                            <p class="login-table-forgot"><a href="#">Forgot your password?</a></p>
+                        </form>
+                    </td>
+
+                </tbody>
+                <tfoot>
+                    <td class="login-table-footer ">
+                    <a href="#">Use OpenID</a>
+                    <a href="#">Use Facebook</a>
+                    <a href="#">Use Gmail</a>
+                    </td>
+                </tfoot>
+            </table>
+            <table class="table-pay-attention">
+                <thead>
+                    <tr>
+                        <td class="pay-attention-title"><b>Pay attention</b></td>
+                    </tr>
+                </thead>
+                <tbody class="table-pay-attention-text">
+                    <tr>
+                        <td class="pay-attention-text">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit. Cupiditate ducimus enim facere impedit nobis,
+                            nulla placeat quam suscipit unde voluptatibus.
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot class="table-pay-attention-footer">
+                    <tr>
+                        <td class="pay-attention-footer"><a href="#">View all</a></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
         <footer>
             <a href="#">Codeforces</a> &copy; 2010-2018 by Mike Mirzayanov
         </footer>
